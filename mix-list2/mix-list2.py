@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#mixlist
 proto = ['ssh', 'http', 'https']
 print(proto)
 print(proto[1])
