@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# loop
 vendors = ['cisco', 'juniper', 'big_ip', 'f5', 'arista', 'alta3', 'zach', 'stuart']
 approved_vendors = ['cisco', 'juniper', 'big_ip']
 for x in vendors:
