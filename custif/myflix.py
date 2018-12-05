@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 message = 'The movie is about to begin, we recommend '
 print('What is your connection speed in Mbps?')
-connection = float (input(5))
+connection = float (3)
 if connection >=25:
 	message = message + 'setting video to 4k'
 elif connection >= 5:
