@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+outFile = open('admin.rc', 'a')
+
+print('What is the OS_AUTH_URL?=http://controller:35357/v2/')
+osAUTH = input()
+print('export OS_AUTH_URL=' + osAUTH, file=outFile)
+print('export OS_IDENTITY_API_VERSION=3', file=outFile)
+
+print('What is the OS_PROJECT_NAME?=myproject')
+osPROJ = input()
+print('export OS_PROJECT_NAME=' + osPROJ, file=outFile)
+
+print('What is the OS_PROJECT_DOMAIN_NAME?=default')
+osPROJDOM = input()
+
+print('export OS_PROJECT_DOMAIN_NAME=' + osPROJDOM, file=outFile)
+print('What is the OS_USERNAME?admin')
+osUSER = input()
+print('export OS_USERNAME=' + osUSER, file=outFile)
+print('What is the OS_USER_DOMAIN_NAME?=default')
+osUSERDOM = input()
+print('export OS_USER_DOMAIN_NAME=' + osUSERDOM, file=outFile)
+print('What is the OS_PASSWORD?=alta3')
+osPASS = input()
+print('export OS_PASSWORD=' + osPASS, file=outFile)
+outFile.close()
+
