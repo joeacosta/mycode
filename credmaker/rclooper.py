@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# rc looper
+# rclooper
 import csv
 f = open('csv_users.txt', 'r')
 i = 0
